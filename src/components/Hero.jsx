@@ -4,23 +4,22 @@ function Hero() {
   return (
     <section id="home" className="hero">
       <div className="hero-left">
-        <h1>Hi, I'm <span>Abhinav Srivastava</span></h1>
-        <br />
-        <h3>React Developer</h3>
-        <br />
-
+        <p className="eyebrow">Hello, I&apos;m</p>
+        <h1>Abhinav Srivastava</h1>
+        <h2>React Developer & Frontend Engineer</h2>
         <p>
-          I build modern, responsive and high-performance web applications.
+          I design and build modern, responsive web experiences with clean UI,
+          thoughtful interactions, and dependable performance.
         </p>
 
         <div className="buttons">
-          <button>Download CV</button>
-          <button className="outline">Contact Me</button>
+          <a href="#contact" className="btn btn-primary">Hire Me</a>
+          <a href="#projects" className="btn btn-secondary">View Projects</a>
         </div>
       </div>
 
-      <div className="hero-right">
-        <img src={profile} alt="profile" />
+      <div className="hero-image">
+        <img src={profile} alt="Abhinav Srivastava" />
       </div>
     </section>
   );

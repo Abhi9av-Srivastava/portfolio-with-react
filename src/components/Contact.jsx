@@ -1,17 +1,28 @@
 function Contact() {
   return (
     <section id="contact" className="section">
-      <h2>Contact Me</h2>
+      <div className="section-heading">
+        <p className="eyebrow">Contact</p>
+        <h2>Let&apos;s build something great together.</h2>
+      </div>
 
-      <form>
-        <input type="text" placeholder="Name" />
+      <div className="contact-grid">
+        <div className="contact-card">
+          <p>Have a project in mind or want to discuss collaboration?</p>
+          <p>Email: abhinav@example.com</p>
+          <p>Location: India</p>
+        </div>
 
-        <input type="email" placeholder="Email" />
-
-        <textarea placeholder="Message"></textarea>
-
-        <button>Send</button>
-      </form>
+        <div className="contact-card">
+          <form>
+            <input type="text" placeholder="Name" />
+            <input type="email" placeholder="Email" />
+            <input type="text" placeholder="Subject" />
+            <textarea placeholder="Message"></textarea>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </div>
     </section>
   );
 }
