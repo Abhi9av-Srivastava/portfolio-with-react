@@ -24,7 +24,7 @@ function About() {
             <div><span>Email:</span> abhinav@example.com</div>
             <div><span>Phone:</span> +91 98765 43210</div>
             <div><span>Location:</span> India</div>
-            <div><span>Experience:</span> 2+ Years</div>
+            
           </div>
         </div>
       </div>
